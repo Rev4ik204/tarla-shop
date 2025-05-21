@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto/Roboto-VariableFont_wdth\wght.ttf);
+}
+
+@font-face {
+  font-family: "DM_Sans";
+  src: url(./fonts/DM_Sans/DMSans-VariableFont_opsz\wght.ttf);
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "DM_Sans", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
