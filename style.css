@@ -26,3 +26,54 @@ body {
   margin-right: auto;
   display: flex;
 }
+.header .container {
+  padding: 16px 24px;
+  background-color: #f5ede7;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+.logo {
+}
+.nav_list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.nav_list_item {
+}
+.nav_list_item_link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 80%;
+  text-transform: uppercase;
+  color: #000;
+}
+.user_list {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  list-style: none;
+}
+.user_list_item {
+}
+.user_list_item_link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user_list_item_link_img {
+}
+.user_list_item_link_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #000;
+}
