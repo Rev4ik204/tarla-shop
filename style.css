@@ -143,8 +143,8 @@ body {
 .hero_arrow_list {
   list-style: none;
   position: absolute;
-bottom: 16px;
-right: 16px;
+  bottom: 16px;
+  right: 16px;
   display: flex;
   gap: 5px;
 }
@@ -153,4 +153,38 @@ right: 16px;
 .hero_arrow {
 }
 .hero_arrow_img {
+}
+
+/* --------------WORKS----------- */
+.works .container {
+  padding: 80px 22px;
+  background-color: #f5ede7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 140%;
+  text-align: center;
+  color: #000;
+}
+.works_list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.works_list_item {
+}
+.works_list_item_img {
+}
+.works_list_item_title {
+}
+.works_list_item_text {
+}
+.works_button {
 }
