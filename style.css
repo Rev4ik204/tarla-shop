@@ -218,7 +218,8 @@ body {
   width: 320px;
 }
 .works_button,
-.bakery_button {
+.bakery_button,
+.shop_list_item_button {
   width: 310px;
   height: 58px;
   margin-top: 42px;
@@ -239,7 +240,9 @@ body {
 .works_button:hover,
 .works_button:focus,
 .bakery_button:hover,
-.bakery_button:focus {
+.bakery_button:focus,
+.shop_list_item_button:hover,
+.shop_list_item_button:focus {
   border: 2px solid #0126de;
   color: #0126de;
 }
@@ -277,5 +280,69 @@ body {
 }
 
 .bakery_button {
+  margin-top: 0;
+}
+
+/* ------------SHOP------------- */
+
+.shop .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 72px 16px;
+  background-color: #f5ede7;
+}
+
+.shop_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 144%;
+  text-align: center;
+  color: #000;
+}
+
+.shop_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.shop_list_item {
+}
+
+.shop_list_item_img {
+  border-radius: 20px;
+  width: 453px;
+  height: 453px;
+}
+
+.shop_list_item_info {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.shop_list_item_title {
+  width: 222px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 133%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.shop_list_item_price {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.shop_list_item_button {
+  width: 257px;
   margin-top: 0;
 }
