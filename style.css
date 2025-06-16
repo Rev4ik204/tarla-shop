@@ -217,7 +217,8 @@ body {
   color: #000;
   width: 320px;
 }
-.works_button {
+.works_button,
+.bakery_button {
   width: 310px;
   height: 58px;
   margin-top: 42px;
@@ -236,7 +237,45 @@ body {
 }
 
 .works_button:hover,
-.works_button:focus {
+.works_button:focus,
+.bakery_button:hover,
+.bakery_button:focus {
   border: 2px solid #0126de;
   color: #0126de;
+}
+
+/* ------------BAKERY------------- */
+
+.bakery .container {
+  display: flex;
+  gap: 48px;
+  padding: 72px 16px;
+  background-color: #f5ede7;
+}
+
+.bakery_img {
+  border-radius: 20px;
+  width: 680px;
+  height: 529px;
+}
+
+.bakery_info {
+  width: 679px;
+  height: 529px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 23px;
+}
+
+.bakery_text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 140%;
+  color: #000;
+}
+
+.bakery_button {
+  margin-top: 0;
 }
