@@ -346,3 +346,12 @@ body {
   width: 257px;
   margin-top: 0;
 }
+
+/* ------------IMAGE------------- */
+.image .container {
+  padding-top: 64px;
+}
+.image_img {
+  width: 1440px;
+  height: 960px;
+}
