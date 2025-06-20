@@ -243,7 +243,7 @@ body {
 .bakery_button:focus,
 .shop_list_item_button:hover,
 .shop_list_item_button:focus {
-  border: 2px solid #0126de;
+  border: 2px solid #1204dd;
   color: #0126de;
 }
 
@@ -354,4 +354,56 @@ body {
 .image_img {
   width: 1440px;
   height: 960px;
+}
+
+/* ------------IMAGE------------- */
+
+.what_me .container {
+  background-color: #f5ede7;
+  padding: 16px;
+}
+
+.what_me_list {
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.what_me_list_item {
+  box-sizing: border-box;
+
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 25px;
+  width: 459px;
+  height: 630px;
+}
+
+.what_me_list_item_img {
+  border-radius: 10px;
+  width: 409px;
+  height: 272px;
+}
+
+.what_me_list_item_title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 122%;
+  text-align: center;
+  color: #000;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.what_me_list_item_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  color: #000;
 }
