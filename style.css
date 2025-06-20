@@ -356,7 +356,7 @@ body {
   height: 960px;
 }
 
-/* ------------IMAGE------------- */
+/* ------------WHAT ME------------- */
 
 .what_me .container {
   background-color: #f5ede7;
@@ -406,4 +406,22 @@ body {
   line-height: 156%;
   text-align: center;
   color: #000;
+}
+
+
+/* ------------HISTORY------------- */
+
+.history .container {
+}
+.history_list {
+}
+.history_list_item {
+}
+.history_list_item_img {
+}
+.history_list_item_title {
+}
+.history_list_item_text {
+}
+.history_list_item_button {
 }
