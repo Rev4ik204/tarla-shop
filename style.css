@@ -502,46 +502,49 @@ body {
 
 /* ------------JOIN------------- */
 
-.join .container {padding: 32px 16px;
+.join .container {
+  padding: 32px 16px;
   background-color: #f5ede7;
-display: flex;
-flex-direction: column;
-align-items:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 .join_title {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 50px;
-line-height: 144%;
-text-transform: uppercase;
-text-align: center;
-color: #000;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 144%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
 }
 
 .join_text {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 31px;
-line-height: 142%;
-text-align: center;
-color: #000;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 142%;
+  text-align: center;
+  color: #000;
 }
 
 .join_button {
   border: 1px solid #000;
-border-radius: 10px;
-width: 480px;
-height: 58px;
+  border-radius: 24px;
+  width: 480px;
+  height: 58px;
+  padding-top: 28px;
+  /* padding-bottom: 20px; */
 }
 
 .join_button_text {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 17px;
-line-height: 424%;
-text-transform: uppercase;
-text-align: center;
-color: #000;
-
+  font-weight: 400;
+  font-size: 17px;
+  /* line-height: 424%; */
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
 }
