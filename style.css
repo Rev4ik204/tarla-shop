@@ -64,6 +64,21 @@ body {
   text-transform: uppercase;
   color: #000;
 }
+.nav_list_item_link:hover,
+.nav_list_item_link:focus,
+.user_list_item_link:hover,
+.user_list_item_link:focus {
+  color: #1204dd;
+  font-weight: 600;
+  .user_list_item_link_img {
+    stroke: #1204dd;
+  }
+  .user_list_item_link_text {
+    color: #0126de;
+    font-weight: 600;
+  }
+}
+
 .user_list {
   display: flex;
   gap: 6px;
@@ -156,6 +171,12 @@ body {
   gap: 5px;
 }
 .hero_arrow_list_item {
+  cursor: pointer;
+}
+.hero_arrow_list_item:hover,
+.hero_arrow_list_item:focus {
+  transform:scale(1.2);
+  /* transform:rotate(360); */
 }
 .hero_arrow {
 }
@@ -624,7 +645,7 @@ body {
 }
 .footer_wrap2 {
   display: flex;
-  gap:4px;
+  gap: 4px;
 }
 .footer_text {
   font-family: var(--font-family);
